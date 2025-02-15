@@ -1,0 +1,144 @@
+* {
+   margin: 0;
+   padding: 0; 
+   
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+    align-items: center;
+    
+}
+.navbar__s1-title {
+    color: #a435f0;
+
+}
+ .navbar__s1-title span {
+    color: black;
+}
+
+ .navbar__s2 {
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s2 input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.navbar__s2 input:focus{
+    outline: none;
+}
+
+.navbar__s3 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+
+.categories p {
+    background-color: #a435f0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.sale-image img {
+    width: 100%;
+}
+
+.recommended {
+    padding: 10px;
+}
+.recommended_container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course-card {
+    width: 300px;
+}
+
+.course-card img {
+    height: 50%;
+    width: 100%;
+}
+
+.topics {
+    padding: 10px;
+}
+.topics__container {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    margin-top:10px; 
+    flex-wrap: wrap; 
+    flex-grow: 1;  
+}
+.topics__container p {
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    gap: 10px;
+}
+
+.popular {
+    padding: 10px;
+}
+
+.popular__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* .popular__subtitle p {
+    padding-top: 10px;
+    margin-bottom: 5px;
+} */
+.footer {
+    padding: 30px;
+    background-color: black;
+    color: #fff;
+}
+.footer__one p {
+    margin:20px ;
+}
+
+.footer__one{
+    display: flex;
+    gap: 10px;
+
+}
+.footer__two {
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
